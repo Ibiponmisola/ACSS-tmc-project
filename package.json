@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss  css/style.css -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ibiponmisola/first-advanced-css-project.git"
   },
-  "author": "",
+  "author": "Ibiponmisola",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ibiponmisola/first-advanced-css-project/issues"
   },
-  "homepage": "https://github.com/Ibiponmisola/first-advanced-css-project#readme"
+  "homepage": "https://github.com/Ibiponmisola/first-advanced-css-project#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
+ 
